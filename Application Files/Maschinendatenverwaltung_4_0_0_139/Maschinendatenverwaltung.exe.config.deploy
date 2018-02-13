@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Maschinendatenverwaltung.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Maschinendatenverwaltung.Properties.ChargendatenSave" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+    <applicationSettings>
+        <Maschinendatenverwaltung.Properties.Settings>
+            <setting name="Einstellung" serializeAs="String">
+                <value />
+            </setting>
+        </Maschinendatenverwaltung.Properties.Settings>
+    </applicationSettings>
+    <userSettings>
+        <Maschinendatenverwaltung.Properties.ChargendatenSave>
+            <setting name="ChargeNr1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr11" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr12" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr13" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr14" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr15" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr16" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr17" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr18" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr19" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr20" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr21" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr22" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr23" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr24" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr25" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr26" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr27" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr28" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr29" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr30" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr31" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr32" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr33" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr34" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr35" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNr36" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr11" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr12" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr13" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr14" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr15" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr16" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr17" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr18" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr19" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr20" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr21" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr22" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr23" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr24" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr25" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr26" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr27" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr28" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr29" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr30" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr31" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr32" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr33" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr34" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr35" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeilNr36" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Pruefername" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Indentnummer" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="PalettenNr" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="TeileNr" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="ChargeNrKorr1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr11" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr12" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr13" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr14" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr15" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr16" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr17" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr18" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr19" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr20" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr21" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr22" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr23" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr24" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr25" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr26" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr27" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr28" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr29" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr30" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr31" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr32" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr33" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr34" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr35" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ChargeNrKorr36" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr11" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr12" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr13" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr14" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr15" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr16" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr17" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr18" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr19" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr20" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr21" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr22" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr23" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr24" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr25" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr26" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr27" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr28" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr29" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr30" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr31" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr32" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr33" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr34" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr35" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="TeileNrKorr36" serializeAs="String">
+                <value />
+            </setting>
+        </Maschinendatenverwaltung.Properties.ChargendatenSave>
+    </userSettings>
+</configuration>

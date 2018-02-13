@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Maschinendatenverwaltung.exe" version="4.0.0.146" publicKeyToken="e129d3c453ae6ceb" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="robotfilled.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Maschinendatenverwaltung" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Maschinendatenverwaltung.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Ebene der Windows-Benutzerkontensteuerung ändern möchten, ersetzen Sie den 
+          Knoten "requestedExecutionLevel" durch eine der folgenden Angaben.
+
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+
+         Wenn Sie Datei- und Registrierungsvirtualisierung für Abwärtskompatibilität 
+         verwenden möchten, löschen Sie den Knoten "requestedExecutionLevel".
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Maschinendatenverwaltung.exe" size="1750488">
+      <assemblyIdentity name="Maschinendatenverwaltung" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cA8WN1cYMIvqYNwJdenIn2x89dQV5unHSJk7HvVMYLE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SPSVerbindung.dll" size="40960">
+      <assemblyIdentity name="SPSVerbindung" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Fj+RcYtcZ1zAHrtIv8oTREnL2PR9YTSK2P/X6ToXgoc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Maschinendatenverwaltung.exe.config" size="18468">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MvgELZ7KT/0nYu9dg1a7M5B208fLPu+5fBmbMVmEGcQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="robotfilled.ico" size="270398">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jyI7QwQms3JpmN9zezdyDFeS2CC7DrVjD8fcQRCAmyA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="shared-server_icon-icons.com_52816.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ksmIggqR2XDDGIV/dSxXz1JaGHPMf2I6tIEB5DfzMLE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LENOVOCE3\Seriouscee" issuerKeyHash="d9b518a925e16beacaf76584b47f038d9f012d8c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Uj5e8We/jHht5GZ7S7R6APpSekk9rRB+8E/k4KMrZpE=</DigestValue></Reference></SignedInfo><SignatureValue>tDWydoT1vYuijn0CKemSN0R3vIoom4mkBRCSn4pYBcFGLcFi+N5ZFAphVQqMQl+gto5Z/vx7pmFjtfM6wyYnVY6SpLlRQNZYlUA3NBY5TtTyYrr/MEAS4+yriXHGFjjukDzmAz3PsXkY4H2cHX4dex0JL7z1HNco8P9hDDMXXuA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1P+hZ8u0k9ty50DwXbdMHvklXEnb92HqiKk54szd/B5nMKJLgf23V5zTdV5uPzNnz9SKNHwm+0vCoCEXrqmGQ9Oj+pbd3updWfPWqkr3LXpCWWfXkoYjJmYUUYIxn+AKw+XP1ew2d+GQWM434OfXOYFvX+k0X0K2Dr7eUNdKTVU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="91662ba3e0e44ff07e10ad3d497a52fa007ab44b7b66e46d788cbf67f15e3e52" Description="" Url=""><as:assemblyIdentity name="Maschinendatenverwaltung.exe" version="4.0.0.146" publicKeyToken="e129d3c453ae6ceb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LENOVOCE3\Seriouscee</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tailbAtB8qjW5ZC9oBUWcpvI2+7jS5hwckyKM3lL9K8=</DigestValue></Reference></SignedInfo><SignatureValue>THUAu3FTpNV09F/eXvvAphus3J1sAwNNXS2XErQTkKcmucVZD7OLm9FcC6C5Ej7kav+MRmFW+P+euMvzkY8Y7MU9qbw4y42Wh5OK8Q4Iflw6V9PcRjSqmUC0AUQvjM9g/xnCPR2FZ8lMKRD7wp1s/kSfoE/4+E8ktfWZCG8FYxI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1P+hZ8u0k9ty50DwXbdMHvklXEnb92HqiKk54szd/B5nMKJLgf23V5zTdV5uPzNnz9SKNHwm+0vCoCEXrqmGQ9Oj+pbd3updWfPWqkr3LXpCWWfXkoYjJmYUUYIxn+AKw+XP1ew2d+GQWM434OfXOYFvX+k0X0K2Dr7eUNdKTVU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQNmIBbkZwxKZGZu0OyWc6tTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATABFAE4ATwBWAE8AQwBFADMAXABTAGUAcgBpAG8AdQBzAGMAZQBlMB4XDTE3MDYxODE4NTQwOFoXDTE4MDYxOTAwNTQwOFowMzExMC8GA1UEAx4oAEwARQBOAE8AVgBPAEMARQAzAFwAUwBlAHIAaQBvAHUAcwBjAGUAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1P+hZ8u0k9ty50DwXbdMHvklXEnb92HqiKk54szd/B5nMKJLgf23V5zTdV5uPzNnz9SKNHwm+0vCoCEXrqmGQ9Oj+pbd3updWfPWqkr3LXpCWWfXkoYjJmYUUYIxn+AKw+XP1ew2d+GQWM434OfXOYFvX+k0X0K2Dr7eUNdKTVUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBgsWNRTYDkw3vQrbxdv0d2dh9BSJ1A+h6cXHCDO7nNqe201R1kJpPi4IjeVjAMOfsG5f6HQHmQw6Lmo2bWxGNGV0dYTqHxsRG6ZTBxmJe7dXiZY9cpZDo1gihorD9j14sxE4+x0AyJrHoTixk2AWtQIS+sFmhKKKJ5hCQvjJd7sQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
